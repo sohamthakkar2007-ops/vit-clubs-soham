@@ -1,0 +1,36 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1c2833;
+  padding: 20px;
+  color: #FDFEFE;
+}
+
+header {
+  color: #ffffff;
+  background-color: #1a5276;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+nav {
+  text-align: left;
+  font-weight: bolder;
+  padding-left: 2%;
+  word-spacing: 1cm;
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 1%;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h3 a {
+  color: #15da35;
+}
+
+h3 a[href*="Game"], h3 a[href*="IEEE"], h3 a[href*="Google"], h3 a[href*="GedIT"] {
+  color: #08b205;
+}
