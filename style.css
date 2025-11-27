@@ -21,6 +21,21 @@ body {
     font-family: 'Courier New', Courier, monospace;
     padding-bottom: 1%;
   }
+
+    ol {
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 10px;
+  }
+
+  li {
+    text-align: left;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 8px;
+
+  }
   
   nav a {
     color: #ffffff;
@@ -28,10 +43,10 @@ body {
   }
   
   h3 a {
-    color: #15da35;
+    color: #64e364;
   }
   
   h3 a[href*="Game"], h3 a[href*="IEEE"], h3 a[href*="Google"], h3 a[href*="GedIT"] {
-    color: #08b205;
+    color: #64e364;
   }
   
