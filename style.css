@@ -23,13 +23,11 @@ body {
   }
 
     ol {
-    text-align: left;
     margin-left: 30px;
     padding-left: 10px;
   }
 
   li {
-    text-align: left;
     margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 0.05);
     padding: 15px;
@@ -48,5 +46,41 @@ body {
   
   h3 a[href*="Game"], h3 a[href*="IEEE"], h3 a[href*="Google"], h3 a[href*="GedIT"] {
     color: #64e364;
+  }
+
+  .segregation {
+    color: #64e364;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    position:relative;
+    top: 50px;
+    right: 500px;
+  }
+
+  .non-tech {
+    color: #64e364;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 5cm;
+    width: 10cm;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .tech {
+    color: #64e364;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    height: 5cm;
+    width: 10cm;
+    font-size: larger;
+    font-weight: bolder;
+    position: relative;
+    left: 30px;
   }
   
